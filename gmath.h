@@ -24,6 +24,8 @@ void limit_color( color * c );
 //vector functions
 void normalize( double *vector );
 double dot_product( double *a, double *b );
+double *scalarize( double x, double *v );
+double *subtract( double *v0, double *v1 );
 double *calculate_normal(struct matrix *polygons, int i);
 
 #endif
